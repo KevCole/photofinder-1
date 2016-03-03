@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>PhotoSender</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="/js/app.js" charset="utf-8"></script>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>PhotoFinder</h1>
-      </header>
-      <div class="main-body">
-        <div class="form">
-          <input type="text" name="email" placeholder="Enter email">
-          <button type="button" name="submit">Submit</button>
-        </div>
 
-      </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoSender</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="page-block"></div>
+    <div class="logo">
+        <a href="index.html"><img src="css/PhotoFinderLogo.jpg" alt="photo finder logo"></a>
     </div>
-  </body>
+    <div class="wrapper clearfix">
+        <header>
+            <h1 id="Greeting" class="fade-in">Welcome To PhotoFinder</h1>
+            <p>Search photos by email below</p>
+        </header>
+        <div class="main-body">
+            <div class="form">
+                <input type="text" name="email" placeholder="sample@email.com">
+                <button class="submit">search</button>
+
+                <p class="newRecord"><a href="newRecord.html">Add New Record</a> </p>
+            </div>
+
+        </div>
+    </div>
+    <footer> <span>&copy; ByteCubed Future Team 2016</span></footer>
+</body>
+
 </html>
